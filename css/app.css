@@ -80,20 +80,24 @@ section.hero {
 
 }
 
-.h1-second {
+.h1-main {
 	font-size: 38px;
 	text-align: left;
 	padding-bottom: 30px;
+	padding-top: 20px;
 }
 
 .container {
 	max-width: 900px;
 	margin: 0 auto;
+	padding-top: 25px;
+
 }
 
 .container-small {
 	max-width: 700px;
 	margin: 0 auto;
+	padding-top: 40px;
 }
 
 .row {
@@ -150,5 +154,5 @@ section.hero {
 }
 
 .bg-gray {
-	background-color: #d3d3d3;
+	background-color: rgb(246, 246, 246);
 }
