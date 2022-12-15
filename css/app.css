@@ -102,6 +102,10 @@ h2.last {
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 36px;
+	background-image: url(../img/stars.svg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .container {
