@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul,
+ol,
+li,
+menu {
+    list-style-type: none;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.inline {
+	display: inline;
+}
+
+.main-header,
+.hero {
+	background-image: url(../img/jumbo.png);
+	max-height: 100%;
+	color: white;
+	padding-top: 15px;
+} 
+
+.main-header span {
+	padding: 0 15px;
+}
+
+.accedi {
+    background-color: white;
+    color: rgb(35, 35, 35);
+	border-radius: 25%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.h1-hero {
+	text-align: center;
+	font-size: 38px;
+	margin-bottom: 30px;
+}
+
+.p-hero {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+
+.button-hero {
+	margin: 0 6px 10px 130px;
+}
+
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.container-small {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+}
+
+.row-reverse {
+	flex-direction: row-reverse;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.main-header .row {
+	align-items: center;
+}
+
+.logo {
+	min-width: 150px;
+}
+
+.page-footer {
+	background-color: #23272a;
+	color: white;
+}
+
+.section {
+	padding: 50px 0;
+}
+
+.col-16 {
+	flex-basis: calc(100% / 6);
+}
+
+.col-33 {
+	flex-basis: calc(100% / 3);
+}
+
+.col-40 {
+	flex-basis: 40%;
+}
+
+.col-60 {
+	flex-basis: 60%;
+}
+
+.col-100 {
+	flex-basis: 100%;
+}
+
+.bg-gray {
+	background-color: #d3d3d3;
+}
