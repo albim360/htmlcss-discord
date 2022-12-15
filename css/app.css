@@ -212,3 +212,8 @@ h2.last {
 .line {
 	border-top: 2px solid rgb(65, 83, 202);
 }
+
+i {
+	margin-left: 6px;
+	margin-top: 6px;
+}
