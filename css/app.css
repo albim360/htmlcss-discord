@@ -38,7 +38,7 @@ body{
 .accedi {
     background-color: white;
     color: rgb(35, 35, 35);
-	border-radius: 25%;
+	border-radius: 20px 20px 20px 20px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -55,13 +55,25 @@ body{
 .p-hero {
 	text-align: center;
 	font-size: 18px;
-	margin-bottom: 12px;
+	padding-bottom: 26px;
 }
 
 .button-hero {
-	margin: 0 6px 10px 130px;
+	margin: 0px -81px 10px 150px;
+	border-radius: 20px 20px 20px 20px;
+	padding: 15px;
 }
 
+.button-downl {
+	background-color: white;
+	color: black;
+}
+
+.button-open {
+	background-color: rgb(34, 39, 43);
+	color: rgb(255, 255, 255);
+
+}
 
 .container {
 	max-width: 900px;
