@@ -31,10 +31,14 @@ body{
 header.main-header,
 section.hero {
 	max-height: 100%;
-	min-height: 250px;
+	min-height: 125px;
 	color: white;
 	padding-top: 15px;
 } 
+
+.main-content {
+	min-height: 372px;
+}
 
 .main-header span {
 	padding: 0 15px;
@@ -87,6 +91,19 @@ section.hero {
 	padding-top: 20px;
 }
 
+.h1-last {
+	font-size: 38px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+h2.last {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 36px;
+}
+
 .container {
 	max-width: 900px;
 	margin: 0 auto;
@@ -120,6 +137,17 @@ section.hero {
 	align-items: center;
 }
 
+.button-last {
+	background-color: rgb(115, 130, 224);
+	padding: 10px;
+	text-align: center;
+	margin-left: 382px;
+	border-radius: 20px 20px 20px 20px;
+	color: white;
+}
+
+
+
 .logo {
 	min-width: 150px;
 }
@@ -135,10 +163,34 @@ section.hero {
 
 .col-16 {
 	flex-basis: calc(100% / 6);
+	padding-right: 40px;
 }
 
 .col-33 {
 	flex-basis: calc(100% / 3);
+}
+
+.h3-footer {
+	text-align: left;
+	font-size: 28px;
+	color: rgb(115, 130, 224);
+	padding-bottom: 12px;
+}
+
+.h4-footer {
+	color: rgb(115, 130, 224);
+	padding-bottom: 12px;
+}
+
+.ul-footer > li {
+	color: rgb(255, 255, 255);
+	padding-bottom: 13px;
+}
+
+
+.bandiera {
+	max-height: 20px;
+	
 }
 
 .col-40 {
@@ -155,4 +207,8 @@ section.hero {
 
 .bg-gray {
 	background-color: rgb(246, 246, 246);
+}
+
+.line {
+	border-top: 2px solid rgb(65, 83, 202);
 }
